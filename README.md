@@ -2,7 +2,7 @@
 
 Areas of focus during this sprint are as follows:
 
-| Learnings |
+| Fundamentals to be covered |
 | -------- |
 | `Python - first statements` |
 | `Python - import & modules` |
