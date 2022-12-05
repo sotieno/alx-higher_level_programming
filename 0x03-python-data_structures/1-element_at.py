@@ -9,10 +9,4 @@ def element_at(my_list, idx):
     Returns:
         The return value: retrieves element from a list
     """
-
-    if idx < 0:
-        return None
-    elif idx > len(my_list):
-        return None
-    else:
-        return my_list[idx]
+    return (my_list[idx] if 0 <= idx < len(my_list) else None)
