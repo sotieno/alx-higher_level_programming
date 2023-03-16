@@ -13,11 +13,7 @@
 * What is a prototype
 * How to inherit an object from another
 
-<div>
-<!-- semistandard --> <a href="https://github.com/standard/semistandard" target="_blank"><img height="24px" src="https://raw.githubusercontent.com/standard/semistandard/master/badge.svg" alt="Semistandard Code Style" > </a>
-</div>
-
->Node installation:
+> Node installation:
 
 ```bash
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
@@ -35,7 +31,3 @@ sudo npm install semistandard --global
 ```shellscript
 #!/usr/bin/node
 ```
-
-## Autor
-
->```Saviour Eyo```
