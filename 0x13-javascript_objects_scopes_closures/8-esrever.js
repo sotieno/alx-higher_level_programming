@@ -6,5 +6,5 @@ exports.esrever = function (list) {
     list[list.length - 1 - index] = list[index];
     list[index] = tmp;
   }
-  return list
+  return list;
 };
