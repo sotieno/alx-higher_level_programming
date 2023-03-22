@@ -26,9 +26,9 @@ The biggest difficulty with ORM is: The syntax! Indeed, all of them have the sam
 * SQLAlchemy version 1.4.x
 * pycodestyle version 2.8.*
 * All files are executable
-* All your modules have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
-* All your classes have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
-* All your functions (inside and outside a class) have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+* All modules have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
+* All classes have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
+* All functions (inside and outside a class) have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
 
 ### How to install MySQL
 
