@@ -25,7 +25,8 @@ if __name__ == "__main__":
 
     # Fetch all 'City' objects from the database and print them
     rows = session.query(City, State).\
-        filter(City.state_id == State.id).all()
+        filter(City.state_id == State.id).\
+        order_by(City.id).all()
     for city, state in rows:
         print("{}: ({}) {}".format(state.name, city.id, city.name))
     session.commit()
