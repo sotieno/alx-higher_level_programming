@@ -7,8 +7,7 @@ from sqlalchemy import Column, Integer, String, ForeignKey
 
 # Import the 'declarative_base' function from
 # the 'sqlalchemy.ext.declarative' module
-# from sqlalchemy.ext.declarative import declarative_base
-from model_state import Base
+from sqlalchemy.ext.declarative import declarative_base
 
 # Create a declarative base class to be used by all ORM classes
 Base = declarative_base()
