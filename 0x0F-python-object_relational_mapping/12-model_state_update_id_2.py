@@ -9,6 +9,8 @@ from sqlalchemy.orm import sessionmaker
 
 # Check if script is being executed as main program
 if __name__ == "__main__":
+    # Create a database engine using the values
+    # of the first three command line arguments
     engine = create_engine(
                 'mysql+mysqldb://{}:{}@localhost:3306/{}'
                 .format(argv[1], argv[2], argv[3]), pool_pre_ping=True)
