@@ -9,6 +9,7 @@ from sqlalchemy import Column, Integer, String, ForeignKey
 # the 'relationship_state' module
 from relationship_state import Base
 
+
 # Define the 'City' class, which maps to the 'cities' table in the database
 class City(Base):
     """City ORM class"""
