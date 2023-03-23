@@ -12,6 +12,7 @@ from sqlalchemy.ext.declarative import declarative_base
 # Create a declarative base class to be used by all ORM classes
 Base = declarative_base()
 
+
 # Define the 'City' class, which maps to the 'cities' table in the database
 class City(Base):
     """City ORM class"""
