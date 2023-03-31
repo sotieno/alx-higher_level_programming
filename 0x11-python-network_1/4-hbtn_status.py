@@ -1,8 +1,15 @@
 #!/usr/bin/python3
-""" Uses requests module -- yay"""
+""" Script that fetches https://alx-intranet.hbtn.io/status """
 import requests
 
 if __name__ == "__main__":
+    # make the request and get the response
     response = requests.get('https://intranet.hbtn.io/status')
-    print("Body response:\n\t- type: {}\n\t- content: {}"
-          .format(type(response.text), response.text))
+
+    # extract the body content from the response
+    content = response.text
+
+    # print the body content with formatting
+    print("Body response:")
+    print("\t- type: {}".format(type(content)))
+    print("\t- content: {}".format(content))
