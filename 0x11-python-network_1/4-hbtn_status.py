@@ -10,6 +10,5 @@ if __name__ == "__main__":
     content = response.text
 
     # print the body content with formatting
-    print("Body response:")
-    print("\t- type: {}".format(type(content)))
-    print("\t- content: {}".format(content))
+    print("Body response:\n\t- type: {}\n\t- content: {}"
+          .format(type(content), content))
