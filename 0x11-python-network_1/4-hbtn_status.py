@@ -4,7 +4,8 @@ import requests
 
 if __name__ == "__main__":
     # make the request and get the response
-    response = requests.get('https://intranet.hbtn.io/status')
+    url = "https://alx-intranet.hbtn.io/status"
+    response = requests.get(url)
 
     # extract the body content from the response
     content = response.text
