@@ -1,6 +1,6 @@
 # Higher Level Programming Projects
 
-This repository contains programs written for the higher-level programming track at ALX Africa Software Engineering program. In these projects, I learned Python, MySQL and JavaScript. Simultaneously while continuing to reinforce and expand my skills in C and shell scripting. The specific list of projects contained follows:
+This repository contains programs written for the higher-level programming track at ALX Africa Software Engineering program. In these projects, I gained knowledge in Python, MySQL and JavaScript. Simultaneously while continuing to reinforce and expand my skills in C and shell scripting. The specific list of projects contained follows:
 
 0x00. Python - Hello, World
 0x01. Python - if/else, loops, functions
